@@ -1,0 +1,49 @@
+*comment Copyright 2010 by Dan Fabulich.
+*comment 
+*comment Dan Fabulich licenses this file to you under the
+*comment ChoiceScript License, Version 1.0 (the "License"); you may
+*comment not use this file except in compliance with the License. 
+*comment You may obtain a copy of the License at
+*comment 
+*comment  http://www.choiceofgames.com/LICENSE-1.0.txt
+*comment 
+*comment See the License for the specific language governing
+*comment permissions and limitations under the License.
+*comment 
+*comment Unless required by applicable law or agreed to in writing,
+*comment software distributed under the License is distributed on an
+*comment "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND,
+*comment either express or implied.
+
+Your grocery store finds it more profitable to cater to alien clientele. You now lost your main food source. Do you:
+*choice
+	#Travel across town for groceries.
+		Your neighborhood is all the rave with the new alien population. Your rent is raised $800 in an attempt to drive you out and make room for the new high–paying customers. Do you:
+		*choice
+			#Agree to pay it and start draining your savings.
+				Yikes. That went more quickly than you thought. You're now poor and homeless.
+				*ending
+			#Move to a more human–friendly borough.
+				You move to the other side of town. There are less aliens, but also much less people. You're extremely lonely. Do you:
+				*choice
+					#Try online dating and find someone in your area.
+						The only available single is attractive, but also a close cousin. Do you:
+						*choice
+							#Go for it...at the expense of your gene pool.
+								You and your cousin are living happily in your isolated borough...until the aliens discover your water reservoir would make an even better hot spring. With your water supply cut off, you:
+								*choice
+									#Start a protest arguing for human rights and access tobasic necessities.
+										...wrong choice. The aliens don't like rebel rousers.They have you executed before you can gain any progressor attention.
+										*ending
+									#Get creative - start collecting rain water and rely onbottled water and coconut water otherwise.
+										Oh no. Radiation from the alien's bodies leached intothe ground and entered the water system. The rain youwere drinking was actually acid rain, and now your dead.
+										*ending
+							#Accept your lonesome fate.
+								You died of a broken heart, with no children to carry on your human legacy :(
+								*ending
+					#Accept your lonesome fate.
+						You died of a broken heart, with no children to carry on your human legacy :(
+						*ending
+	#Live off bodega snacks and eating out.
+		Damn. Your unhealthy eating habits could only support you so long. You contracted diabetes and died of heart disease.
+		*ending
